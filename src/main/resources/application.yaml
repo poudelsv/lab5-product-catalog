@@ -4,6 +4,8 @@ spring:
   datasource:
     url: jdbc:mysql://localhost:3306/mymarket?createDatabaseIfNotExist=true
     username: root
-    password: P@ssword
+    password: GnusmaS@123
   jpa:
     show-sql: true
+    hibernate:
+      ddl-auto: validate
